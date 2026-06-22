@@ -51,7 +51,7 @@ for i in {0..23..12}; do arr[$i]="72"; done # 24hr fcst every 12hrs
 export FCST_LEN_HRS_CYCLES="${arr[*]}"
 export HISTORY_INTERVAL=1
 export DIAG_INTERVAL=1
-export MPASOUT_TIMELEVELS='0 1 2 3'
+export MPASOUT_TIMELEVELS='0 1 2 3 15 27'
 export POST_GROUP_TOT_NUM=10
 
 export IC_OFFSET=3
@@ -141,7 +141,7 @@ export STARTTIME_JEDIVAR="00:40:00"
 export STARTTIME_FCST="00:10:00"
 export STARTTIME_MPASSIT="00:15:00"
 export STARTTIME_UPP="00:15:00"
-export STARTTIME_PREP_IC="02:00:00"
+export STARTTIME_PREP_IC="03:00:00"
 export STARTTIME_PREP_LBC="00:15:00"
 export MORE_XML_ENTITIES=true
 export DO_CLEAN=true
