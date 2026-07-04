@@ -10,7 +10,7 @@
         ignore = all
 [submodule "sorc/RDASApp"]
 	path = sorc/RDASApp
-	url = https://github.com/NOAA-EMC/RDASApp
+	url = git@github.com:joshuawchen/RDASApp.git
         branch = develop
         ignore = all
 [submodule "sorc/UPP"]
